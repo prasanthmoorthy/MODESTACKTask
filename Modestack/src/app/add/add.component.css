@@ -1,0 +1,62 @@
+.pagheadng {
+    font-size: 1rem;
+    text-align: left;
+    padding: 2px 6px;
+    margin: 7px 15px;
+    color: #464343;
+    /* background: rgba(33, 150, 243, .09); */
+    display: inline-block;
+    border-left: 3px solid #333;
+    text-transform: uppercase; 
+}
+
+.otpbutton {
+    margin-top: 24px;
+}
+.container{
+    padding: 35px;
+}
+.help-block-rk {
+    height: 15px;
+    display: -webkit-inline-box
+}
+
+.help-block {
+    margin: 0;
+    padding: 0;
+    color: #cc4141;
+    font-size: 11px;
+    line-height: 12px
+} 
+
+.data_custom{
+    margin-top: 5px;
+}
+
+.form-check-inline { 
+    padding-left: 16px;
+}
+.btn_cancel{
+    margin-left: 10px; 
+}
+
+.mandantory {
+    color: #cc4141;
+    font-size: small
+}
+
+@media only screen and (max-width: 600px) {
+    .otpbutton {
+        margin-top: 0px;  
+    }
+    
+@media only screen and (max-width: 600px) { 
+    .container {  
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto; 
+      background-image: url(/assets/images/login-bg.jpg);
+    }
+}
+}

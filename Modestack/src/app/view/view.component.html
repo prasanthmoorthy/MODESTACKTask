@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <div class="form-row">
+                    <div class='col'>
+                        <h2 class="pagheadng">View Information </h2>
+                    </div>
+
+                    <div class=" col text-right">
+                        <div class="form-group">
+                            <button class="btn btn-secondary otpbutton" type="button" routerLink="/list">
+                                Back
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-12">
+                    <div class="form-row">
+                        <label class="col-sm-3 col-form-label" for="name">Title</label>
+                        <div class="col-sm-3 data_custom">{{objModestack?.title}}</div>
+                        <label class="col-sm-3 col-form-label" for="name">body</label>
+                        <div class="col-sm-3 data_custom">{{objModestack?.body}}
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </form>
+
+        </div>
+
+    </div>
+</div>
